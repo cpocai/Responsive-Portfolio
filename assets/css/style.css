@@ -176,3 +176,18 @@ input[type=submit] {
   top: 530px;
   left: 31px;
 }
+@media only screen and (min-width: 480px) {
+    body {
+        background-color: red;
+    }
+}
+@media only screen and (min-width: 600px) {
+    body {
+        background-color: green;
+    }
+}
+@media only screen and (min-width: 960px) {
+    body {
+        background-color: lightblue;
+    }
+}
